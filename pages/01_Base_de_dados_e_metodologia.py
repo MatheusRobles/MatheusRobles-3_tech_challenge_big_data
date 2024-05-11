@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(page_title='Dados Selecionas & Metodologia', page_icon='https://th.bing.com/th?id=ODLS.b7e13985-946a-47c6-8d8e-a4d10d1e8063&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2', initial_sidebar_state='expanded')
 
 # seta header image da página
-page01_header_image = Image.open('imgs\header_principal.png')
+page01_header_image = Image.open('imgs/header_principal.png')
 st.image(page01_header_image, caption='Image credit: Fusion Medical Animation at Unsplash')
 
 # cria tabs de conteúdo da página
