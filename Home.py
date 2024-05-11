@@ -6,7 +6,7 @@ st.set_page_config(page_title="Home", page_icon="https://th.bing.com/th?id=ODLS.
 
 
 # seta header image da página
-home_header_image = Image.open('imgs\header_principal.png')
+home_header_image = Image.open('imgs/header_principal.png')
 st.image(home_header_image, caption='Image credit: Fusion Medical Animation at Unsplash')
 
 # texto da homepage
