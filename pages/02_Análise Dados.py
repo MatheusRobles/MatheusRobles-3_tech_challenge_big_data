@@ -30,7 +30,7 @@ sintomas = ['SE_TEVE_FEBRE', 'SE_TEVE_TOSSE', 'SE_TEVE_DOR_GARGANTA', 'SE_TEVE_F
 st.set_page_config(page_title='Análise de Dados', page_icon='https://th.bing.com/th?id=ODLS.b7e13985-946a-47c6-8d8e-a4d10d1e8063&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2', initial_sidebar_state='expanded')
 
 # seta header image da página
-page02_header_image = Image.open('imgs\header-analise_de_dados.png')
+page02_header_image = Image.open('imgs/header-analise_de_dados.png')
 st.image(page02_header_image, caption='Imagem criada com o Copilot')
 
 # cria tabs de conteúdo da página
