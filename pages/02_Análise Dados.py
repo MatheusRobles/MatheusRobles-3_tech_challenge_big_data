@@ -141,7 +141,7 @@ with tab5:
     Nesta análise, buscamos entender padrões de comportamento relacionados à COVID-19 por meio da clusterização de dados. Primeiramente, formatamos a base de dados para ter valores binários, o que nos permitiu aplicar o método de clusterização. Utilizamos o método de silhouette para determinar o número ideal de clusters, e concluímos que o melhor número seria 4. Em seguida, aplicamos o algoritmo K-means para realizar a clusterização e exploramos a correlação entre os clusters.
     """)
     st.write(df_cluster.head())
-    plot_heatmap(df_cluster)
+    st.image('imgs/Clusterizacao_COVID19.png', use_column_width=True, output_format='auto')
     st.markdown("""
     ### 2. Limitações da Análise de Clusterização
 
